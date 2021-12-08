@@ -1,3 +1,2 @@
-const http = require("http");
-const server = require("./api/server");
-http.createServer(server).listen(80);
+const server = require("./server/core");
+server.listen(80, () => console.log('app listening on port 80!'));

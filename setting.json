@@ -2,7 +2,7 @@
   "name-web":"STACKOVERFLOW MASKODING",
   "author":"MASKODING",
   "remove-comment-html":true,
-  "target":"https://produsenkawatduri.com/",
+  "target":"https://m.tribunnews.com",
   "name-folder-sitemap":"sitemap",
   "element-remove":[
     "script",
@@ -69,6 +69,21 @@
     }
   ],
   "inject-element-head":[
+	{
+      "name-element":"meta",
+      "data-attribute":[
+        {
+          "name-attribute":"name",
+          "value-attribute":"google-site-verification"
+        },
+        {
+          "name-attribute":"content",
+          "value-attribute":"bGd76ilj-qY3ZJwGdJ3W7qJko65x24b-AVx05o-rmnY"
+        }
+      ],
+      "data-innerHTML":"",
+      "position":"start"
+    	},
     {
       "name-element":"meta",
       "data-attribute":[
@@ -210,25 +225,6 @@
         {
           "name-attribute":"content",
           "value-attribute":"${authorPost}"
-        }
-      ],
-      "data-innerHTML":"",
-      "position":"start"
-    },
-{
-      "name-element":"script",
-      "data-attribute":[
-        {
-          "name-attribute":"async",
-          "value-attribute":"async"
-        },
-        {
-          "name-attribute":"src",
-          "value-attribute":"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
-        },
-        {
-          "name-attribute":"data-ad-client",
-          "value-attribute":"ca-pub-6893110972528910"
         }
       ],
       "data-innerHTML":"",
